@@ -1,7 +1,7 @@
 from opcua import Client
 import time
 
-client = Client("opc.tcp://DESKTOP-N9PU6HL:53530/OPCUA/SimulationServer")
+client = Client("opc.tcp://DESKTOP-N9PU6HL:53530/OPCUA/SimulationServer") # Insira a URL do servidor aqui
 client.connect()
 
 robo = client.get_objects_node().get_child(["3:Franka"])

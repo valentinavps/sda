@@ -5,7 +5,7 @@ from opcua import Client, ua
 
 class CLP:
     def __init__(self):
-        self.opc_client = Client("opc.tcp://localhost:53530/OPCUA/SimulationServer")
+        self.opc_client = Client("opc.tcp://DESKTOP-N9PU6HL:53530/OPCUA/SimulationServer")   # Insira a URL do servidor aqui
         self.tcp_host = "localhost"
         self.tcp_port = 9000
         self.juntas = []
