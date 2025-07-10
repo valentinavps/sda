@@ -25,7 +25,7 @@ def move_joint_smoothly(handle, target_position):
 # Inicia conexão com servidor OPC UA
 ########################################################################
 def initOPC():
-    client = Client("opc.tcp://localhost:53530/OPCUA/SimulationServer")
+    client = Client("opc.tcp://DESKTOP-N9PU6HL:53530/OPCUA/SimulationServer")
     client.connect()
     servers = client.find_servers()
 
