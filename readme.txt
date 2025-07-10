@@ -1,6 +1,6 @@
 Trabalho Prático Final de SDA
 Controle de um Manipulador Robótico via Integração com Servidor OPC UA
-Alunos: Pedro Ribeiro Rodrigues Lourenço e Valentina
+Alunos: Pedro Ribeiro Rodrigues Lourenço e Valentina Perpetuo dos Santos
 
 
 1 - Pré requisitos:
